@@ -1,0 +1,14 @@
+{
+  "name": "iust-portal-mcp",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP server for IUST LMS and IT portal authentication and page access",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^4.0.0"
+  }
+}
