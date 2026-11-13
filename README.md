@@ -41,3 +41,7 @@ Restart Codex if its tool list does not refresh.
 ## Scope
 
 Page reads and data-changing requests are restricted to `https://lms.iust.ac.ir` or `https://its.iust.ac.ir`. The LMS login flow may navigate between those two hosts for OAuth. Other linked services are not accessed. Form submissions and non-GET requests can change course or account data; no write action was used during verification.
+
+## Hermes Agent
+
+See [HERMES_SETUP.md](HERMES_SETUP.md) for Hermes registration, tool selection, usage, and troubleshooting.
